@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>FYF</title>
+    <link rel="stylesheet" type="text/css" href="Style.css"/>
+    <script src="jscript.js"></script>
+    <script type="text/javascript">
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</head>
+<body onload="OnLoad()">
+
+    <div class="level0">
+        <div class="l01">
+            Hi! Please enter your query in the search
+        </div>
+    
+    </div>
+
+    <div class="level1">
+
+        <div class="level11">
+        </div>
+        <!--div class="level12">
+        </div-->
+        <div class="level13" onmouseover="OnMouseOverMenu(this)" onmouseout="OnMouseOutMenu(this)">
+            <div class="level131">
+            </div>
+            <div class="level132">
+            </div>
+            <div class="level133">
+                <a href="*" target="_self">HOME</a>
+            </div>
+
+        </div>
+        <div class="level14" <!--onmouseover="OnMouseOverMenu(this)" onmouseout="OnMouseOutMenu(this)"-->>
+            <div class="level141">
+            </div>
+            <div class="level142">
+            </div>
+            <div class="level143">
+                <a href="*" target="_self">ABOUT</a>
+            </div>
+
+        </div>
+        <div class="level15" onmouseover="OnMouseOverMenu(this)" onmouseout="OnMouseOutMenu(this)">
+            <div class="level151">
+            </div>
+            <div class="level152">
+            </div>
+            <div class="level153">
+                <a href="test.html" target="_self">MORE</a>
+            </div>
+
+        </div>
+    </div>
+    <div class="level2">
+        <div class="l21">
+            <div class="searchArea1">
+                <label class="searchLabel">
+                    Issue
+                </label>
+                <input class="issueInput" id="issueInput" maxlength="200" onmouseover="OnMouseOverText(this)" onmouseout="OnMouseOutText(this)"/>
+            </div>
+            </div>
+        <div class="l22">
+            <div class="searchArea2">
+                <label class="searchLabel">
+                    Area
+                </label>
+                <input class="issueInput" id="issueInput2" maxlength="200" onmouseover="OnMouseOverText(this)" onmouseout="OnMouseOutText(this)" />
+            </div>
+        </div>
+
+        <div class="searchButton">
+        <button id="go" style="width:60px; height:60px; font-size:24px;" onmouseover="OnMouseOverButton(this)" 
+        onmouseout="OnMouseOutButton(this)" onclick="OnSearchButtonClick(this)">
+        GO!
+        </button>
+        </div>
+    </div>
+
+    <div class="level2hzruler">
+    <hr />
+    </div>
+        <!--div class="InputLocation"-->
+        <!--div id="map-canvas"></div-->
+
+        <!--/div-->
+    <!--div class="level3">
+        <div id="ResultSet1">
+            <div class="result1">
+            result 1
+            </div>
+            <div class="result2">
+            result 2
+            </div>
+            <div class="result3">
+            result 3
+            </div>
+        </div>
+   </div-->
+
+       <div class="level4">
+        <div class="l41">
+            Or, try any of these..
+        </div>
+        <div class="l4misc">
+            <div class="Elements Electrical">
+            <div class="el">Electrical</div> 
+            </div>
+
+            <div class="Elements Mechanical">
+            <div class="el">Mechanical</div>
+            </div>
+
+
+            <div class="Elements Carpentry">
+            <div class="el">Carpentry</div>
+            </div>
+
+            <div class="Elements Electronics">
+            <div class="el">Electronics</div>
+            </div>
+
+            <div class="Elements Plumbing">
+            <div class="el">Plumbing</div>
+            </div>
+
+            <div class="Elements Painting">
+            <div class="el">Painting</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
